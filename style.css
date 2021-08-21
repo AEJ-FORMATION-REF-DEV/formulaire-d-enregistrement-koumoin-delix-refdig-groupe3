@@ -1,0 +1,88 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    }
+    th, td {
+    text-align: left;
+    padding: 8px;
+    border:2px solid #fff;
+    min-width: 150px;
+    }
+    th{
+    background-color: #4e73df;
+    color: #fff;
+    font-size: 20px;
+    }
+    tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+    button {
+    height: 35px;
+    border-radius: 20px;
+    background: #0695b9;
+    width: 5rem;
+     margin-top: 50px;
+    }
+    button:hover{
+    background-color:#06b7fd;
+    }
+ 
+
+
+
+ form{
+    display: block;
+    margin: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    padding: 20px;
+
+  
+}
+
+.inscrit{
+     margin: 40%; 
+/* background-color: blue; */
+height: 35px;
+border-radius: 20px;
+background: #0695b9;
+width: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+    }
+
+    .bton{
+        width: 50%;
+        margin-bottom: 5px;
+        border-radius: 2em;
+        padding: 13px;
+        background-color: cadetblue;
+       
+    }
+
+input{
+    display: block;
+    margin: 15px;
+
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1500px){
+    body{
+        background-color: aqua;
+
+    }
+} 
